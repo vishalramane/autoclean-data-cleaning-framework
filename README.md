@@ -1,6 +1,6 @@
-# AutoClean - Automated Data Cleaning Framework
+# 🧹 AutoClean - Automated Data Cleaning Framework
 
-## Overview
+## 📖 Overview
 
 AutoClean is a reusable Python-based data cleaning framework that automates common data quality tasks across structured datasets.
 
@@ -10,7 +10,7 @@ The framework was validated using the **US Accidents Dataset containing 7.7+ mil
 
 ---
 
-## Table of Contents
+## 📑 Table of Contents
 
 - [Overview](#overview)
 - [Project Structure](#project-structure)
@@ -34,7 +34,7 @@ The framework was validated using the **US Accidents Dataset containing 7.7+ mil
 
 ---
 
-## Project Structure
+##  📂 Project Structure
 
 ```text
 AutoClean - Automated Data Cleaning Framework/
@@ -62,7 +62,7 @@ AutoClean - Automated Data Cleaning Framework/
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -74,7 +74,7 @@ AutoClean - Automated Data Cleaning Framework/
 
 ---
 
-## Features
+## ✨ Features
 
 - Automated dataset profiling
 - Dynamic column standardization
@@ -90,7 +90,7 @@ AutoClean - Automated Data Cleaning Framework/
 
 ---
 
-## Workflow
+## 🔄 Workflow
 
 ```text
 Load Dataset
@@ -118,9 +118,9 @@ Export Clean Dataset
 
 ---
 
-# Data Cleaning Logic
+# 🧹 Data Cleaning Logic
 
-## Column Standardization
+## 📝 Column Standardization
 
 AutoClean standardizes column names by:
 
@@ -149,7 +149,7 @@ weather_condition
 
 ---
 
-## Date Detection & Conversion
+## 📅 Date Detection & Conversion
 
 The framework automatically detects date columns without requiring predefined column names.
 
@@ -177,7 +177,7 @@ datetime64[ns]
 
 ---
 
-## Missing Value Treatment
+## 🔍 Missing Value Treatment
 
 Missing values are handled based on data type.
 
@@ -251,7 +251,7 @@ Date Missing Values → Retained as Null
 
 ---
 
-## Duplicate Removal
+## ♻️ Duplicate Removal
 
 Duplicate records are detected using:
 
@@ -269,7 +269,7 @@ This prevents duplicate records from affecting downstream analysis.
 
 ---
 
-## Text Standardization
+## 🔤 Text Standardization
 
 Text columns are cleaned by:
 
@@ -298,7 +298,7 @@ New York
 
 ---
 
-## Outlier Handling
+## 📊 Outlier Handling
 
 AutoClean uses the Interquartile Range (IQR) Method.
 
@@ -324,9 +324,9 @@ Instead of deleting records, AutoClean caps extreme values at the calculated bou
 
 ---
 
-# Project Results
+# 📈 Project Results
 
-## Dataset Used
+## 📂 Dataset Used
 
 **US Accidents Dataset**
 
@@ -335,7 +335,7 @@ Instead of deleting records, AutoClean caps extreme values at the calculated bou
 
 ---
 
-## AutoClean Final Report
+## 📋 AutoClean Final Report
 
 | Metric | Result |
 |----------|----------:|
@@ -366,7 +366,7 @@ Instead of deleting records, AutoClean caps extreme values at the calculated bou
 
 ---
 
-# Screenshots
+# 📸 Screenshots
 
 ## Initial Dataset Profile
 
@@ -386,7 +386,7 @@ Instead of deleting records, AutoClean caps extreme values at the calculated bou
 
 ---
 
-# How to Run
+# ▶️ How to Run
 
 ### Clone Repository
 
@@ -422,25 +422,25 @@ Run all cells.
 
 ---
 
-# Requirements
+# 📦 Requirements
 
 ```text
-pandas
-numpy
-openpyxl
-jupyter
+pandas==2.3.3
+numpy==2.3.5
+openpyxl==3.1.5
+jupyter==1.1.1
 ```
 
 ---
 
-# License
+# 📜 License
 
 This project is licensed under the MIT License.
 
 See the [LICENSE](LICENSE) file for details.
 ---
 
-# Future Enhancements
+# 🔮 Future Enhancements
 
 - Automated anomaly detection
 - Data validation rules
@@ -452,16 +452,20 @@ See the [LICENSE](LICENSE) file for details.
 
 ---
 
-# Author
+# 👨‍💻 Author
 
 ## Vishal Ramane
 
-**Data Analyst | Python | SQL | Power BI | Machine Learning**
+💼 **Data Analyst | Python | SQL | Power BI | Machine Learning**
 
-### Connect
+### 🌐 Connect With Me
 
-- LinkedIn: www.linkedin.com/in/vishal-ramane
-- GitHub: https://github.com/vishalramane
-- Email: vishalramane.work@gmail.com
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishal-ramane)
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vishalramane)
+
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vishalramane.work@gmail.com)
+
+---
+
+⭐ If you found this project useful, consider giving it a Star on GitHub.
